@@ -1,0 +1,20 @@
+.nanu{
+font-size: 9vw;
+font-weight: 700;
+text-align: center;
+color:  rgb(0 , 100 , 255);
+}
+.welcome{
+ font-size: 8vw;
+ font-weight: 700;
+ text-align: center;
+ color:  rgb(0 , 100 , 255);
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.navbar-brand{
+ color:  rgb(0 , 100 , 255);
+}
