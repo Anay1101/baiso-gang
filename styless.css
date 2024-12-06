@@ -46,6 +46,8 @@ background-color: #48F0ED;
 body {
     font-family: 'Chewy', sans-serif !important;
 }
-p {
-font-size: 2.3vh;
-}
+
+@media (max-width: 768px) {
+   p {
+        font-size: 1.2rem;
+    }
