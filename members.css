@@ -50,8 +50,9 @@ p {
     color: #333;
 }
 body{
-background-color: #D8F4F4 ! important;
-}.navbar-brand {
+background-color: #D8F4F4 !important;
+}
+.navbar-brand {
   color: rgb(0, 100, 255);
   font-family: 'Lobster', sans-serif;
 }
