@@ -118,4 +118,7 @@ navbar {
     }
 }
 
-
+@media (min-width: 1024px) {
+  p {
+  font-size: 1.5rem;
+}
