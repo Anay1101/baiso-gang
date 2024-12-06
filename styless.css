@@ -54,7 +54,7 @@ navbar {
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .nanu {
-        font-size: 9vw;
+        font-size: 7vw;
     }
 
     .welcome {
@@ -122,6 +122,29 @@ navbar {
   p {
   font-size: 1.5rem;
 }
-h1{
-font-size: 12vw;
+
+.nanu {
+    font-size: 9vw; /* Default for larger screens */
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 100, 255);
+}
+
+@media (max-width: 1024px) {
+    .nanu {
+        font-size: 9vw; /* Slightly smaller for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .nanu {
+        font-size: 9vw; /* Proportional to viewport width */
+    }
+}
+
+@media (max-width: 480px) {
+    .nanu {
+        font-size: 9vw; /* Keep consistent scaling for smaller devices */
+        /* Alternatively, use a fixed size if needed: font-size: 24px; */
+    }
 }
