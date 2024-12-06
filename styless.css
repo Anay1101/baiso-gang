@@ -54,7 +54,7 @@ navbar {
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .nanu {
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
     .welcome {
@@ -122,4 +122,6 @@ navbar {
   p {
   font-size: 1.5rem;
 }
-
+h1{
+font-size: 12vw;
+}
