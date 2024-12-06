@@ -48,7 +48,6 @@ body {
     color: #555555;
 }
 
-/* Media query for responsiveness */
 @media (max-width: 768px) {
     .header-section h1 {
         font-size: 2em;
@@ -65,4 +64,7 @@ body {
     .faq-item .answer {
         font-size: 0.9em;
     }
+}
+html{
+background-color: black ! important;
 }
