@@ -74,11 +74,11 @@ navbar {
 
 @media (max-width: 768px) {
     .nanu {
-        font-size: 6vw;
+        font-size: 11vw;
     }
 
     .welcome {
-        font-size: 5.5vw;
+        font-size: 9vw;
     }
 
     .feature-icon {
@@ -122,3 +122,4 @@ navbar {
   p {
   font-size: 1.5rem;
 }
+
