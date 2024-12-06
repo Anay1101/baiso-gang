@@ -62,8 +62,8 @@ navbar {
     }
 
     .images {
-        flex-direction: row; /* Ensure images align in a row */
-        height: auto; /* Prevent overflow on smaller screens */
+        flex-direction: row; 
+        height: auto; 
     }
 
     .img {
@@ -74,11 +74,11 @@ navbar {
 
 @media (max-width: 768px) {
     .nanu {
-        font-size: 11vw;
+        font-size: 45px;
     }
 
     .welcome {
-        font-size: 9vw;
+        font-size: 40px;
     }
 
     .feature-icon {
