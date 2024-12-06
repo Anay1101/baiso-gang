@@ -1,21 +1,21 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Chewy', sans-serif !important;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #D8F4F4 !important;
     color: #D8F4F4;
 }
 
 .title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4em;
     margin: 1rem 0;
     color: rgb(70, 0, 250);
 }
 
 .subtitle {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #555;
 }
 
@@ -49,18 +49,52 @@ p {
     line-height: 1.6;
     color: #333;
 }
-body{
-background-color: #D8F4F4 !important;
-}
+
 .navbar-brand {
-  color: rgb(0, 100, 255);
-  font-family: 'Lobster', sans-serif;
-}
-body {
-    font-family: 'Chewy', sans-serif !important;
+    color: rgb(0, 100, 255);
+    font-family: 'Lobster', sans-serif;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
+    .title {
+        font-size: 3em;
+    }
+    .subtitle {
+        font-size: 2rem;
+    }
     p {
         font-size: 1.2rem;
     }
+    .members {
+        padding: 0.5rem;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2.5em;
+    }
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.5rem;
+    }
+}

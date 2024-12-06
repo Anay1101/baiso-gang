@@ -1,53 +1,121 @@
-.nanu{
-font-size: 9vw;
-font-weight: 700;
-text-align: center;
-color: rgb(0,100,255);
+body {
+    font-family: 'Chewy', sans-serif !important;
+    background-color: #D8F4F4 !important;
+    margin: 0;
+    padding: 0;
 }
-.welcome{
- font-size: 8vw;
- font-weight: 700;
- text-align: center;
- color: rgb(0,100,255);
+
+.nanu {
+    font-size: 9vw;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 100, 255);
 }
+
+.welcome {
+    font-size: 8vw;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 100, 255);
+}
+
 .feature-icon {
-  width: 4rem;
-  height: 4rem;
-  border-radius: .75rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
 }
-.navbar-brand{
- color:  rgb(0 , 100 , 255);
+
+.navbar-brand {
+    color: rgb(0, 100, 255);
+    font-family: 'Lobster', sans-serif;
 }
-.images{
-  display: flex;
-  justify-content: center;
-  align-items: center;    
-  height: 100vh;     
-  gap: 10px;
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
 }
 
 .img {
-  max-width: 50%;
-  max-height: 50%;
-  border: 1vh solid rgb(0 , 100 , 255);
-  border-radius: 30px;
- gap: 10px;
+    max-width: 50%;
+    max-height: 50%;
+    border: 1vh solid rgb(0, 100, 255);
+    border-radius: 30px;
+    gap: 10px;
 }
-body{
-background-color: #D8F4F4 ! important;
+
+navbar {
+    background-color: #48F0ED;
 }
-navbar{
-background-color: #48F0ED;
-}
-.navbar-brand {
-  color: rgb(0, 100, 255);
-  font-family: 'Lobster', sans-serif;
-}
-body {
-    font-family: 'Chewy', sans-serif !important;
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .nanu {
+        font-size: 7vw;
+    }
+
+    .welcome {
+        font-size: 6vw;
+    }
+
+    .images {
+        flex-direction: row; /* Ensure images align in a row */
+        height: auto; /* Prevent overflow on smaller screens */
+    }
+
+    .img {
+        max-width: 70%;
+        max-height: auto;
+    }
 }
 
 @media (max-width: 768px) {
-   p {
-        font-size: 1.2rem;
+    .nanu {
+        font-size: 6vw;
     }
+
+    .welcome {
+        font-size: 5.5vw;
+    }
+
+    .feature-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+   p  {
+   font-size: 1.2rem
+    }
+    .images {
+        flex-direction: column; 
+    }
+
+    .img {
+        max-width: 90%;
+        max-height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .nanu {
+        font-size: 5vw;
+    }
+
+    .welcome {
+        font-size: 4.5vw;
+    }
+
+    .feature-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .img {
+        max-width: 100%;
+        border-radius: 15px;
+    }
+}
+
+
