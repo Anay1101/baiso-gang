@@ -2,14 +2,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #D8F4F4 !important;
     color: #333333;
     line-height: 1.6;
 }
 
 .header-section {
     text-align: center;
-    background-color: #f4f4f9;
+    background-color: #D8F4F4;
     padding: 20px 0;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
