@@ -51,19 +51,18 @@ navbar {
     background-color: #48F0ED;
 }
 
-
 @media (max-width: 1024px) {
     .nanu {
-        font-size: 7vw;
+        font-size: 8vw;
     }
 
     .welcome {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .images {
-        flex-direction: row; 
-        height: auto; 
+        flex-direction: row;
+        height: auto;
     }
 
     .img {
@@ -74,22 +73,24 @@ navbar {
 
 @media (max-width: 768px) {
     .nanu {
-        font-size: 45px;
+        font-size: 60px;
     }
 
     .welcome {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .feature-icon {
         width: 3rem;
         height: 3rem;
     }
-   p  {
-   font-size: 1.2rem
+
+    p {
+        font-size: 1.2rem;
     }
+
     .images {
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .img {
@@ -100,11 +101,11 @@ navbar {
 
 @media (max-width: 480px) {
     .nanu {
-        font-size: 5vw;
+        font-size: 75px !important; /* Increased for better visibility on small screens */
     }
 
     .welcome {
-        font-size: 4.5vw;
+        font-size: 50px;
     }
 
     .feature-icon {
@@ -119,44 +120,14 @@ navbar {
 }
 
 @media (min-width: 1024px) {
-  p {
-  font-size: 1.5rem;
-}
+    p {
+        font-size: 1.5rem;
+    }
 
-.nanu {
-    font-size: 9vw; /* Default for larger screens */
-    font-weight: 700;
-    text-align: center;
-    color: rgb(0, 100, 255);
-}
-
-@media (max-width: 1024px) {
     .nanu {
-        font-size: 9vw; /* Slightly smaller for medium screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .nanu {
-        font-size: 9vw; /* Proportional to viewport width */
-    }
-}
-@media (max-width: 480px) {
-    .nanu {
-        font-size: 7vw; 
-    }
-
-    .welcome {
-        font-size: 6vw; 
-    }
-
-    .feature-icon {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .img {
-        max-width: 100%;
-        border-radius: 15px;
+        font-size: 9vw; /* Default for larger screens */
+        font-weight: 700;
+        text-align: center;
+        color: rgb(0, 100, 255);
     }
 }
